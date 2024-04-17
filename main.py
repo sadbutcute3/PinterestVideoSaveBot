@@ -2,8 +2,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
 import asyncio
 import logging
-from core.settings import settings
-from core.handlers.basic import get_start, parse
+from basic import get_start, parse
 
 
 async def start_bot(bot: Bot):
